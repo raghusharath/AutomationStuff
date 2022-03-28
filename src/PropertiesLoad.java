@@ -25,6 +25,7 @@ public class PropertiesLoad {
 			FileOutputStream fos= new FileOutputStream("C:\\Users\\Raghavendra N\\eclipse-workspace\\CoreJava\\data.properties");
 			prop.store(fos, null);
 			System.out.println("Master to develop");
+			System.out.println("master branch change");
 	}
 
 }
