@@ -24,6 +24,7 @@ public class PropertiesLoad {
 			prop.setProperty("secondName", "ragh");
 			FileOutputStream fos= new FileOutputStream("C:\\Users\\Raghavendra N\\eclipse-workspace\\CoreJava\\data.properties");
 			prop.store(fos, null);
+			System.out.println("Master to develop");
 	}
 
 }
