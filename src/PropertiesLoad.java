@@ -18,8 +18,10 @@ public class PropertiesLoad {
 			//log.info("log informaration");
 			System.out.println(prop.getProperty("url"));
 			System.out.println(prop.getProperty("url"));
+			System.out.println("Develop branch changes");
 			
 			prop.setProperty("name", "ragh");
+			prop.setProperty("secondName", "ragh");
 			FileOutputStream fos= new FileOutputStream("C:\\Users\\Raghavendra N\\eclipse-workspace\\CoreJava\\data.properties");
 			prop.store(fos, null);
 	}
