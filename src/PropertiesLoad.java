@@ -17,6 +17,7 @@ public class PropertiesLoad {
 			prop.load(fip);
 			//log.info("log informaration");
 			System.out.println(prop.getProperty("url"));
+			System.out.println(prop.getProperty("url"));
 			
 			prop.setProperty("name", "ragh");
 			FileOutputStream fos= new FileOutputStream("C:\\Users\\Raghavendra N\\eclipse-workspace\\CoreJava\\data.properties");
